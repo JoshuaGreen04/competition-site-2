@@ -1,0 +1,229 @@
+body {
+    background-image: url("images/backgound.jpeg");
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#background {
+    display: block;
+    position: sticky;
+    background-color: rgba(93, 54, 116, 0.8);
+    width: 90%;
+    height: 750px;
+    border-radius: 100px;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+    padding: 3px;
+    font-size: 25px;
+}
+
+li a {
+    position: relative;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+li a:hover {
+    color: aliceblue;
+}
+
+#log-in {
+    padding: 30px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    height: 50px;
+    width: 140px;
+}
+
+#sign-up {
+    padding: 30px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    height: 50px;
+    width: 140px;
+}
+
+#log-in:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+#sign-up:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+#log-in:active {
+    color: black;
+}
+
+#sign-up:active {
+    color: black;
+}
+
+#log-in-pop-up {
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 37%;
+    width: 15em;
+    height: 300px;
+    border-radius: 40px;
+    background-color: aliceblue;
+    visibility: hidden;
+}
+
+#sign-up-pop-up {
+    display: block;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 37%;
+    width: 15em;
+    height: 300px;
+    border-radius: 40px;
+    background-color: aliceblue;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 500px) {
+
+    #log-in-pop-up {
+        display: block;
+        position: absolute;
+        margin: auto;
+        margin-top: 100px;
+        margin-left: 20%;
+        width: 15em;
+        height: 300px;
+        border-radius: 40px;
+        background-color: aliceblue;
+        visibility: hidden;
+    }
+    
+    #sign-up-pop-up {
+        display: block;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 20%;
+        width: 15em;
+        height: 300px;
+        border-radius: 40px;
+        background-color: aliceblue;
+        visibility: hidden;
+    }
+
+}
+
+form {
+    display: block;
+    margin-left: 0px;
+}
+
+#log-in-cancel {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 70px;
+    height: 40px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: 3px solid rgba(120, 29, 206, 1);
+    cursor: pointer;
+}
+
+#log-in-cancel:hover {
+    background-color: rgb(160, 65, 250);
+    border: 4px solid rgb(136, 8, 255)
+}
+
+#log-in-finish {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 40px;
+    width: 70px;
+    height: 40px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: 3px solid rgb(120, 29, 206);
+    cursor: pointer;
+}
+
+#log-in-finish:hover {
+    background-color: rgb(160, 65, 250);
+    border: 4px solid rgb(136, 8, 255);
+}
+
+#log-in-finish a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#log-in-finish a:hover {
+    color: rgb(174, 217, 255);
+}
+
+#sign-up-cancel {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 70px;
+    height: 40px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: 3px solid rgb(120, 29, 206);
+    cursor: pointer;
+}
+
+#sign-up-cancel:hover {
+    background-color: rgb(160, 65, 250);
+    border: 4px solid rgb(136, 8, 255)
+}
+
+#sign-up-finish {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 40px;
+    width: 70px;
+    height: 40px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: 3px solid rgb(120, 29, 206);
+    cursor: pointer;
+}
+
+#sign-up-finish:hover {
+    background-color: rgb(160, 65, 250);
+    border: 4px solid rgb(136, 8, 255)
+}
+
+#sign-up-finish a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#sign-up-finish a:hover {
+    color: rgb(174, 217, 255);
+}
