@@ -1,0 +1,49 @@
+body {
+    background-image: url("images/backgound.jpeg");
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#background {
+    display: block;
+    position: sticky;
+    background-color: rgba(93, 54, 116, 0.8);
+    width: 90%;
+    height: 750px;
+    border-radius: 100px;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+    padding: 3px;
+    font-size: 25px;
+}
+
+li a {
+    position: relative;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+li a:hover {
+    color: aliceblue;
+}
+
