@@ -13,6 +13,8 @@ Fix: Unresolved
 
 - No custom content
 
+- I have discovered that I hate coding and never wish to do so again.
+
 --Raymond Hudson--
 
 - 
